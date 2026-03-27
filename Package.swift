@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "v6.3.0"
-let checksum = "sha256:41c0342bb1ea1b9233bdee1844850ccb2b726ca61e09b493e9ca6f955a56813c"
+let checksum = "41c0342bb1ea1b9233bdee1844850ccb2b726ca61e09b493e9ca6f955a56813c"
 
 let package = Package(
     name: "SmartcarAuth",
