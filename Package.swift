@@ -1,8 +1,8 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "$VERSION_TAG"
-let checksum = "$XCFRAMEWORK_CHECKSUM"
+let version = "v6.3.0"
+let checksum = "sha256:41c0342bb1ea1b9233bdee1844850ccb2b726ca61e09b493e9ca6f955a56813c"
 
 let package = Package(
     name: "SmartcarAuth",
@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SmartcarAuthBinary",
-            url: "https://github.com/smartcar/ios-sdk/releases/download/v\(version)/framework.zip",
+            url: "https://github.com/smartcar/ios-sdk/releases/download/\(version)/framework.zip",
             checksum: checksum
         ),
         .target(
